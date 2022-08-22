@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    box-sizing: border-box;
+    color: #eaeaea;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to right, #5F0A87, #A4508B);
+}
+
+.location {
+    position: absolute;
+    left: 30%;
+    top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.wrapper input::placeholder {
+    color: #e2e2e2;
+}
+
+.wrapper input {
+    top: 30%;
+    height: 50px;
+    width: 320px;
+    outline: none;
+    margin: 0px 19px;
+    padding: 0px 19px;
+    border: 2px solid #fff;
+    background: #ffffff50;
+    font-size: 25px;
+    border-radius: 25px 8px;
+    color: #eaeaea;
+}
+
+.wrapper .check {
+    width: 175px;
+    font-size: 20px;
+    background: #eaeaea;
+    color: #A4508B;
+    font-weight: 800;
+    transition: 0.25s ease-in-out;
+}
+
+.check:hover {
+    cursor: pointer;
+    transform:scale(1.05, 1.05);
+    background: #ffffff40;
+    color: #eaeaea;
+}
+
+.area {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 50px;
+    font-weight: 100px;
+    position: absolute;
+    top: 35%;
+    left: 17%;
+}
+
+.temp {
+    border: 2px solid #fff;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 55px;
+    position: absolute;
+    bottom: 46%;
+    left: 41.3%;
+}
+
+.temp b {
+    font-size: 53px;
+    color: #e2e2e290;
+}
+
+.desc {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 40px;
+    position: absolute;
+    bottom: 30%;
+    left: 38%;
+    text-transform: capitalize;
+}
+
+.humidity {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 35px;
+    position: absolute;
+    bottom: 20%;
+    left: 38.4%
+}
+
+.icon {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    top: 24.15%;
+    right: 25%;
+}
+
+.logo {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    height: 190px;
+    width: 190px;
+    position: absolute;
+    top: 18%;
+    right: 49.6%;
+}
